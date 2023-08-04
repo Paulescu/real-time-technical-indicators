@@ -31,7 +31,7 @@ Real-time feature pipelines are used for real-time ML problems like fraud detect
 
 
 <p align="center">
-  <img src="./images/real_time_feature_pipeline_system.gif" width='750' />
+  <img src="./images/real_time_pipeline_betta.gif" width='750' />
 </p>
 
 Once the features are in the store, you can fetch them to
