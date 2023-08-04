@@ -31,7 +31,7 @@ Real-time feature pipelines are used for real-time ML problems like fraud detect
 
 
 <p align="center">
-  <img src="./images/real_time_pipeline_betta.gif" width='500' />
+  <img src="./images/real_time_pipeline_betta.gif" width='750' />
 </p>
 
 Once the features are in the store, you can fetch them to
@@ -40,7 +40,7 @@ Once the features are in the store, you can fetch them to
 * **generate predictions with your deployed model**, from the online feature store.
 
 <p align="center">
-  <img src="./images/training_vs_inference_pipeline.gif" width='500' />
+  <img src="./images/training_vs_inference_pipeline.gif" width='750' />
 </p>
 
 ## The problem
@@ -61,7 +61,7 @@ We would like to re-use as much code as possible, and only re-write pre-processi
 * the output sink, either printing on the console (for debugging), the online feature store (for real-time inference), or the offline feature store (for ML Model training)
 
 <p align="center">
-  <img src="./images/modular_real_time_feature_pipeline.gif" width='500' />
+  <img src="./images/modular_real_time_feature_pipeline.gif" width='750' />
 </p>
 
 
@@ -104,15 +104,10 @@ So you can develop highly performant and scalable real-time pipelines, leveragin
 
 4. To run the feature pipeline in `backfill` mode, set your `PREFECT_API_KEY` in `set_environment_variables_template.sh`, run the file, and then
     ```
-    $ make frontend
-    ```
-
-5. To run the feature pipeline on an AWS EC2 instance you first need to have an AWS account and the `aws-cli` tool installed in your local system. Then run the following command to deploy your feature pipeline onto an EC2 instance
-    ```
     $ from_day=2023-08-01 make backfill
     ```
 
-6. To run the feature pipeline in `debug` mode run
+5. To run the feature pipeline in `debug` mode run
     ```
     $ make debug
     ```
