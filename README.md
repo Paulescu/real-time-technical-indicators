@@ -3,8 +3,6 @@
     <a href='https://www.realworldml.xyz/'><img src='./images/logo_2.png' width='350'></a>
 </div>
 
-<br>
-
 <p align="center">
   <img src="./images/modular_real_time_feature_pipeline.gif" width='500' />
 </p>
@@ -15,7 +13,7 @@
 * [The solution](#the-solution)
 * [Python implementation using Bytewax](#python-implementation-using-bytewax)
 * [Run the whole thing in 5 minutes](#run-the-whole-thing-in-5-minutes)
-* [Wanna learn more real-time ML with me?](#wanna-learn-more-real-time-ml)
+* [Wanna learn more real-time ML?](#wanna-learn-more-real-time-ml)
 
 
 ## What is a real-time feature pipeline?
@@ -44,6 +42,7 @@ Once the features are in the store, you can fetch them to
 </p>
 
 <br>
+
 ## The problem
 
 To ensure your deployed model performance matches the test metrics you get at training time, you need to generate features IN THE EXACT SAME WAY.
@@ -54,6 +53,7 @@ This is especially tricky for real-time feature pipelines, where
 * historical data comes from external offline storage, like a data warehouse.
 
 <br>
+
 ## The solution
 
 We would like to re-use as much code as possible, and only re-write pre-processing and post-processing logic, depending on
@@ -114,7 +114,7 @@ So you can develop highly performant and scalable real-time pipelines, leveragin
     $ make debug
     ```
 
-## Wanna learn more Real-Time ML with me?
+## Wanna learn more Real-Time ML?
 
 I am preparing a new hands-on tutorial where you will learn to buld a complete real-time ML system, from A to Z.
 
