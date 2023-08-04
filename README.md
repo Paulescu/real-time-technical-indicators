@@ -1,6 +1,6 @@
 <div align="center">
-    <h2>MLOps best practices</h2>
     <h1>How to build a modular real-time feature pipeline in Python</h1>
+    <a href='https://www.realworldml.xyz/'><img src='./images/logo_2.png' width='350'></a>
 </div>
 
 <br>
@@ -112,9 +112,14 @@ So you can develop highly performant and scalable real-time pipelines, leveragin
     $ make debug
     ```
 
-
 ## Wanna learn more Real-Time ML with me?
 
 I am preparing a new hands-on tutorial where you will learn to buld a complete real-time ML system, from A to Z.
 
 **[➡️ Subscribe to The Real-World ML Newsletter](https://paulabartabajo.substack.com/)** to access exclusive discounts.
+
+<p align="center">
+  <a href='https://www.realworldml.xyz/'><img src='./images/logo_2.png' width='350'></a>
+</p>
+
+
