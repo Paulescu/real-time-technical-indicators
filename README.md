@@ -6,7 +6,7 @@
 <br>
 
 <p align="center">
-  <img src="./images/modular_real_time_feature_pipeline.gif" width='750' />
+  <img src="./images/modular_real_time_feature_pipeline.gif" width='500' />
 </p>
 
 #### Table of contents
@@ -31,7 +31,7 @@ Real-time feature pipelines are used for real-time ML problems like fraud detect
 
 
 <p align="center">
-  <img src="./images/real_time_pipeline_betta.gif" width='750' />
+  <img src="./images/real_time_pipeline_betta.gif" width='500' />
 </p>
 
 Once the features are in the store, you can fetch them to
@@ -40,7 +40,7 @@ Once the features are in the store, you can fetch them to
 * **generate predictions with your deployed model**, from the online feature store.
 
 <p align="center">
-  <img src="./images/training_vs_inference_pipeline.gif" width='750' />
+  <img src="./images/training_vs_inference_pipeline.gif" width='500' />
 </p>
 
 ## The problem
@@ -61,7 +61,7 @@ We would like to re-use as much code as possible, and only re-write pre-processi
 * the output sink, either printing on the console (for debugging), the online feature store (for real-time inference), or the offline feature store (for ML Model training)
 
 <p align="center">
-  <img src="./images/modular_real_time_feature_pipeline.gif" width='750' />
+  <img src="./images/modular_real_time_feature_pipeline.gif" width='500' />
 </p>
 
 
