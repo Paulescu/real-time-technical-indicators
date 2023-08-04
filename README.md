@@ -43,6 +43,7 @@ Once the features are in the store, you can fetch them to
   <img src="./images/training_vs_inference_pipeline.gif" width='750' />
 </p>
 
+<br>
 ## The problem
 
 To ensure your deployed model performance matches the test metrics you get at training time, you need to generate features IN THE EXACT SAME WAY.
@@ -52,7 +53,7 @@ This is especially tricky for real-time feature pipelines, where
 * live raw data often comes from an external web socket, while
 * historical data comes from external offline storage, like a data warehouse.
 
-
+<br>
 ## The solution
 
 We would like to re-use as much code as possible, and only re-write pre-processing and post-processing logic, depending on
@@ -64,6 +65,7 @@ We would like to re-use as much code as possible, and only re-write pre-processi
   <img src="./images/modular_real_time_feature_pipeline.gif" width='750' />
 </p>
 
+<br>
 
 ## Python implementation using Bytewax
 
