@@ -1,11 +1,8 @@
 <div align="center">
     <h1>How to build a modular real-time feature pipeline in Python</h1>
     <a href='https://www.realworldml.xyz/'><img src='./images/logo_2.png' width='450'></a>
+    <img src="./images/modular_real_time_feature_pipeline.gif" width='450' />
 </div>
-
-<p align="center">
-  <img src="./images/modular_real_time_feature_pipeline.gif" width='450' />
-</p>
 
 #### Table of contents
 * [What is a real-time feature pipeline?](#what-is-a-real-time-feature-pipeline)
