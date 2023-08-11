@@ -1,6 +1,6 @@
 <div align="center">
+    <a href='https://www.realworldml.xyz/'><img src='./images/logo_2.png' width='350'></a>    
     <h1>How to build a modular real-time feature pipeline in Python</h1>
-    <a href='https://www.realworldml.xyz/'><img src='./images/logo_2.png' width='450'></a>
     <img src="./images/modular_real_time_feature_pipeline.gif" width='450' />
 </div>
 
