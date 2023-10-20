@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-    <h1>How to build a modular real-time feature pipeline in Python</h1>
+    <h1>Real-time technical indicators in Python</h1>
     <img src="./images/modular_real_time_feature_pipeline.gif" width='450' />
 </div>
 
